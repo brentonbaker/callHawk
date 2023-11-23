@@ -1,0 +1,6 @@
+Flask==3.0.0
+requests
+msal==1.16.0
+Werkzeug
+gunicorn
+python-decouple
