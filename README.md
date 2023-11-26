@@ -1,10 +1,10 @@
 # callHawk
 
 ## Overview
-callHawk is a rudimentary, web application that displays Microsoft Teams direct routing call records for defined users. 
-This is useful when people/teams need to access call records for a subset of people in an organisation. 
+callHawk is a light-weight tool to provide on-demand access to call records for defined users of Microsoft Teams with direct routing.
+This is useful when people-managers need access to call records for a subset of operators in an organisation. 
 
-callHawk would typically sit behind a reverse-proxy providing auth.
+callHawk would typically sit behind a reverse-proxy providing auth and TLS.
 
 
 ## Requirements
@@ -20,7 +20,7 @@ EntraID `clientSecret`
 EntraID `tenant ID`
 
 #### allowed_ObjectIDs
-provide user Object IDs in the format of `"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX","XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX, ..."`
+provide EntraID user Object IDs in the format of `"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX","XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"`
 
 ## Deployment
 ### Clone the repo
